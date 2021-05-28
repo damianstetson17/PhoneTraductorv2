@@ -1,0 +1,5 @@
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.csprojAssemblyReference.cache
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.GeneratedMSBuildEditorConfig.editorconfig
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfoInputs.cache
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfo.cs
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.csproj.CoreCompileInputs.cache
