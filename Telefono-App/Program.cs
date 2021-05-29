@@ -8,14 +8,16 @@ namespace Telefono_App
         {
             CharController controller = new CharController();
 
-            try
-            {
-                controller.getSecuence("");
-            }
-            catch (System.Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            // try
+            // {
+            //     controller.getSecuence("hi");
+            // }
+            // catch (System.Exception ex)
+            // {
+            //     Console.WriteLine(ex.Message);
+            // }
+            
+            Console.WriteLine(controller.getSecuence("hi"));
         }
     }
 }

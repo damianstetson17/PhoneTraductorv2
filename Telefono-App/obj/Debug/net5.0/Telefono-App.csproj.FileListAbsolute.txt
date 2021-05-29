@@ -1,5 +1,16 @@
-/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.csprojAssemblyReference.cache
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.GeneratedMSBuildEditorConfig.editorconfig
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfoInputs.cache
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfo.cs
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.csproj.CoreCompileInputs.cache
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.csproj.AssemblyReference.cache
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App.deps.json
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App.runtimeconfig.json
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App.runtimeconfig.dev.json
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App.dll
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/ref/Telefono-App.dll
+/home/damian/Desktop/C#/Phone v2/Telefono-App/bin/Debug/net5.0/Telefono-App.pdb
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.dll
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/ref/Telefono-App.dll
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.pdb
+/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.genruntimeconfig.cache
