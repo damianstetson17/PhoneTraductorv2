@@ -1,5 +1,7 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Telefono_App.Models;
 using Telefono_App.Controllers;
+using System.Collections.Generic;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Telefono_Tests
 {
@@ -12,7 +14,7 @@ namespace Telefono_Tests
             CharController testController = new CharController();
             string result = testController.getSecuence("hi");
             string spectedResult = "44 444";
-            Assert.AreEqual(spectedResult,result);
+            Assert.AreEqual(spectedResult, result);
         }
 
         [TestMethod]
@@ -21,7 +23,7 @@ namespace Telefono_Tests
             CharController testController = new CharController();
             string result = testController.getSecuence("yes");
             string spectedResult = "999337777";
-            Assert.AreEqual(spectedResult,result);
+            Assert.AreEqual(spectedResult, result);
         }
 
         [TestMethod]
@@ -30,7 +32,7 @@ namespace Telefono_Tests
             CharController testController = new CharController();
             string result = testController.getSecuence("foo bar");
             string spectedResult = "333666 666022 2777";
-            Assert.AreEqual(spectedResult,result);
+            Assert.AreEqual(spectedResult, result);
         }
 
         [TestMethod]
@@ -39,7 +41,7 @@ namespace Telefono_Tests
             CharController testController = new CharController();
             string result = testController.getSecuence("hello world");
             string spectedResult = "4433555 555666096667775553";
-            Assert.AreEqual(spectedResult,result);
+            Assert.AreEqual(spectedResult, result);
         }
     }
 }

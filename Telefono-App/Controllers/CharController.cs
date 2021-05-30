@@ -1,4 +1,5 @@
 using System;
+using Telefono_App.Models;
 using System.Collections.Generic;
 
 namespace Telefono_App.Controllers
@@ -9,15 +10,32 @@ namespace Telefono_App.Controllers
     */
     public class CharController
     {
-        string btn2 = "abc";
-        string btn3 = "def";
-        string btn4 = "ghi";
-        string btn5 = "jkl";
-        string btn6 = "mno";
-        string btn7 = "pqrs";
-        string btn8 = "tuv";
-        string btn9 = "wxyz";
+        public List<Button> buttons = new List<Button>();
 
+        /*  
+            Constructor overload
+            An empty constructor set a phone buttons pattern
+        */
+        public CharController()
+        {
+            buttons.Add(new Button("abc", "2"));
+            buttons.Add(new Button("def", "3"));
+            buttons.Add(new Button("ghi", "4"));
+            buttons.Add(new Button("jkl", "5"));
+            buttons.Add(new Button("mno", "6"));
+            buttons.Add(new Button("pqrs", "7"));
+            buttons.Add(new Button("tuv", "8"));
+            buttons.Add(new Button("wxyz", "9"));
+        }
+
+        public CharController(List<Button> buttons)
+        {
+            this.buttons = buttons;
+        }
+
+        /*
+            This method returns the complete number secuence of a word
+        */
         public string getSecuence(string wordToTransform)
         {
             string secuence = "";
@@ -29,7 +47,7 @@ namespace Telefono_App.Controllers
                 for (int i = 1; i < wordToTransform.Length; i++)
                 {
                     nextNumberSecuence = getLetterNumber(wordToTransform[i]);
-                    if (nextNumberSecuence[nextNumberSecuence.Length-1] == secuence[secuence.Length-1])
+                    if (nextNumberSecuence[nextNumberSecuence.Length - 1] == secuence[secuence.Length - 1])
                     {
                         secuence += $" {nextNumberSecuence}";
                     }
@@ -47,6 +65,9 @@ namespace Telefono_App.Controllers
             return secuence;
         }
 
+        /*
+            This methods return the number with it needed repetitions
+        */
         string getManyRepetitions(string letterRepeat, int many)
         {
             Console.WriteLine($"{letterRepeat} a repetir: {many}");
@@ -59,7 +80,8 @@ namespace Telefono_App.Controllers
             else if (many == 2)
             {
                 letterRepeatString = $"{letterRepeatString}{letterRepeatString}{letterRepeatString}";
-            }else if(many ==  3)
+            }
+            else if (many == 3)
             {
                 letterRepeatString = $"{letterRepeatString}{letterRepeatString}{letterRepeatString}{letterRepeatString}";
             }
@@ -67,49 +89,25 @@ namespace Telefono_App.Controllers
             return letterRepeatString;
         }
 
+        /*
+            This method returns the number of a char
+        */
         string getLetterNumber(char letterToTransform)
         {
             string number = "";
             if (letterToTransform == ' ')
             {
                 number = "0";
-            }else{
-                if (this.btn2.Contains(letterToTransform))
+            }
+            else
+            {
+                foreach (Button b in this.buttons)
                 {
-                    number = getManyRepetitions("2", btn2.IndexOf(letterToTransform));
+                    if (b.isIn(letterToTransform))
+                    {
+                        number = getManyRepetitions(b.buttonNumber, b.getIndexChar(letterToTransform));
+                    }
                 }
-                else if (this.btn3.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("3", btn3.IndexOf(letterToTransform));
-                }
-                else if (this.btn4.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("4", btn4.IndexOf(letterToTransform));
-                }
-                else if (this.btn5.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("5", btn5.IndexOf(letterToTransform));
-                }
-                else if (this.btn6.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("6", btn6.IndexOf(letterToTransform));
-                }
-                else if (this.btn7.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("7", btn7.IndexOf(letterToTransform));
-                }
-                else if (this.btn8.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("8", btn8.IndexOf(letterToTransform));
-                }
-                else if (this.btn9.Contains(letterToTransform))
-                {
-                    number = getManyRepetitions("9", btn9.IndexOf(letterToTransform));
-                }
-                else
-                {
-                    number = Char.ToString(letterToTransform);
-                }   
             }
             return number;
         }
