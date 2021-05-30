@@ -9,9 +9,6 @@ namespace Telefono_App
     {
         static void Main(string[] args)
         {
-            
-            CharController controller = new CharController();
-
             try
             {
                 Console.WriteLine(controller.getSecuence("hi"));
