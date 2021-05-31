@@ -5733,19 +5733,23 @@
     ]
   },
   "packageFolders": {
-    "/home/damian/.nuget/packages/": {}
+    "/home/aceleradora10/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/damian/Desktop/C#/Phone v2/Telefono-Tests/Telefono-Tests.csproj",
+      "projectUniqueName": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-Tests/Telefono-Tests.csproj",
       "projectName": "Telefono-Tests",
-      "projectPath": "/home/damian/Desktop/C#/Phone v2/Telefono-Tests/Telefono-Tests.csproj",
-      "packagesPath": "/home/damian/.nuget/packages/",
-      "outputPath": "/home/damian/Desktop/C#/Phone v2/Telefono-Tests/obj/",
+      "projectPath": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-Tests/Telefono-Tests.csproj",
+      "packagesPath": "/home/aceleradora10/.nuget/packages/",
+      "outputPath": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-Tests/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/damian/.nuget/NuGet/NuGet.Config"
+        "/home/aceleradora10/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -5757,8 +5761,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "/home/damian/Desktop/C#/Phone v2/Telefono-App/Telefono-App.csproj": {
-              "projectPath": "/home/damian/Desktop/C#/Phone v2/Telefono-App/Telefono-App.csproj"
+            "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/Telefono-App.csproj": {
+              "projectPath": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/Telefono-App.csproj"
             }
           }
         }
@@ -5805,7 +5809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
