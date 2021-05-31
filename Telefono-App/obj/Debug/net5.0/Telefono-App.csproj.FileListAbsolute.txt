@@ -14,3 +14,19 @@
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/ref/Telefono-App.dll
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.pdb
 /home/damian/Desktop/C#/Phone v2/Telefono-App/obj/Debug/net5.0/Telefono-App.genruntimeconfig.cache
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.csprojAssemblyReference.cache
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.GeneratedMSBuildEditorConfig.editorconfig
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfoInputs.cache
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.AssemblyInfo.cs
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.csproj.CoreCompileInputs.cache
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.dll
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/ref/Telefono-App.dll
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.pdb
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App.deps.json
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App.runtimeconfig.json
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App.runtimeconfig.dev.json
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App.dll
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/ref/Telefono-App.dll
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/bin/Debug/net5.0/Telefono-App.pdb
+/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/Debug/net5.0/Telefono-App.genruntimeconfig.cache

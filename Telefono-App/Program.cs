@@ -9,15 +9,18 @@ namespace Telefono_App
     {
         static void Main(string[] args)
         {
-            try
-            {
-                Console.WriteLine(controller.getSecuence("hi"));
-            }
-            catch (System.Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
-            
+            // try
+            // {
+            //     CharController controller = new CharController();
+            //     controller.getSecuence("hi!");
+            // }
+            // catch (System.Exception ex)
+            // {
+            //     Console.WriteLine(ex.Message);
+            // }
+
+            CharController controller = new CharController();
+            controller.getSecuence("!!!hYY!");
         }
     }
 }

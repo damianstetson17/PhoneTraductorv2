@@ -18,13 +18,13 @@ namespace Telefono_App.Controllers
         */
         public CharController()
         {
-            buttons.Add(new Button("abc", "2"));
-            buttons.Add(new Button("def", "3"));
-            buttons.Add(new Button("ghi", "4"));
-            buttons.Add(new Button("jkl", "5"));
-            buttons.Add(new Button("mno", "6"));
+            buttons.Add(new Button("abc",  "2"));
+            buttons.Add(new Button("def",  "3"));
+            buttons.Add(new Button("ghi",  "4"));
+            buttons.Add(new Button("jkl",  "5"));
+            buttons.Add(new Button("mno",  "6"));
             buttons.Add(new Button("pqrs", "7"));
-            buttons.Add(new Button("tuv", "8"));
+            buttons.Add(new Button("tuv",  "8"));
             buttons.Add(new Button("wxyz", "9"));
         }
 
@@ -36,10 +36,11 @@ namespace Telefono_App.Controllers
         /*
             This method returns the complete number secuence of a word
         */
-        public string getSecuence(string wordToTransform)
+        public string getSecuence(string wordToTransformParameter)
         {
             string secuence = "";
             string nextNumberSecuence = "";
+            string wordToTransform = wordToTransformParameter.ToLower();
 
             if (wordToTransform.Length > 0)
             {
@@ -70,7 +71,6 @@ namespace Telefono_App.Controllers
         */
         string getManyRepetitions(string letterRepeat, int many)
         {
-            Console.WriteLine($"{letterRepeat} a repetir: {many}");
             string letterRepeatString = letterRepeat;
 
             if (many == 1)
@@ -107,6 +107,10 @@ namespace Telefono_App.Controllers
                     {
                         number = getManyRepetitions(b.buttonNumber, b.getIndexChar(letterToTransform));
                     }
+                }
+                if(number == "")
+                {
+                    number = Char.ToString(letterToTransform);
                 }
             }
             return number;

@@ -8,19 +8,23 @@
     "net5.0": []
   },
   "packageFolders": {
-    "/home/damian/.nuget/packages/": {}
+    "/home/aceleradora10/.nuget/packages/": {},
+    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/damian/Desktop/C#/Phone v2/Telefono-App/Telefono-App.csproj",
+      "projectUniqueName": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/Telefono-App.csproj",
       "projectName": "Telefono-App",
-      "projectPath": "/home/damian/Desktop/C#/Phone v2/Telefono-App/Telefono-App.csproj",
-      "packagesPath": "/home/damian/.nuget/packages/",
-      "outputPath": "/home/damian/Desktop/C#/Phone v2/Telefono-App/obj/",
+      "projectPath": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/Telefono-App.csproj",
+      "packagesPath": "/home/aceleradora10/.nuget/packages/",
+      "outputPath": "/home/aceleradora10/Escritorio/telefono/PhoneTraductorv2/Telefono-App/obj/",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/home/damian/.nuget/NuGet/NuGet.Config"
+        "/home/aceleradora10/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -58,7 +62,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.300/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }
