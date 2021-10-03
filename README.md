@@ -7,7 +7,7 @@ Programa que calcula la secuencia de teclas que hay que pulsar para escribir un 
 
 ## Como lanzar 🚀:
 ```bash
-    cd Phone-KeyboardT-raductor/
+    cd Telefono-App/
     dotnet run
 ```
 
