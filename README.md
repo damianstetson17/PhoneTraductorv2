@@ -7,7 +7,7 @@ Programa que calcula la secuencia de teclas que hay que pulsar para escribir un 
 
 ## Como lanzar 🚀:
 ```bash
-    cd Telefono-App/
+    cd PhoneTraductorv2
     dotnet run
 ```
 
